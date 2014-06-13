@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="jquerymobile/jquery.mobile-1.3.2.css">
+</head>
+<body>
+	<div data-role="page" id="Pagina1">
+		<!-- cabecera-->
+		<div data-role="header" data-theme="e">
+			<h1>Cabecera Pag 1</h1>
+		</div>
+		
+		<!-- contenido-->
+		<div data-role="content" data-theme="c">
+			<a href="pagina2.html" data-role="button" data-transition="slide">Buton 1</a>
+			
+
+			<!--
+			<label for="TipoComida">Tipo de Comida</label>
+			<select id="TipoComida" name="TipoComida" data-menu-native="false">
+				<option>Tipo de Comida</option>
+				<option value="1">Argentina</option>
+				<option value="2">Italiana</option>
+				<option value="3">Mexicana</option>
+				<option value="4">Venezolana</option>
+
+			</select>
+		-->
+		</div>
+		
+		<!-- pie de página-->
+		<div data-role="footer" data-theme="b">
+			<h2>Pie de pagina</h2>
+		</div>
+		<div>
+
+		</div>
+	</div>
+
+	<!-- Pagina 2-->
+	<div data-role="page" id="Pagina2">
+
+		<div data-role="header" data-theme="b">
+			<h1>Cabecera 2</h1>
+
+		</div>
+
+		<div data-role="content" data-theme="c">
+			<a href="#Pagina1" data-role="button">Button 2</a>
+		</div>
+
+		<div data-role="footer" data-theme="a">
+			<h1>Pie de Pagina 2</h1>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquerymobile/jquery.mobile-1.3.2.js"></script>
+</body>
+</html>
